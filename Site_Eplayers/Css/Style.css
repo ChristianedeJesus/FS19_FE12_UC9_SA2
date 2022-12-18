@@ -1,0 +1,42 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a{
+
+    color: rgb(252, 249, 249);
+}
+
+header{
+    background-color: rgba(115, 148, 221, 0.574);
+    height: 160px;
+    padding-top: 20px;
+    
+ }
+
+.container-grid{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Menu a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.Menu{
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+
